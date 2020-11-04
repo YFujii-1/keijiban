@@ -76,12 +76,6 @@
     </form>
     
     <?php
-    //データベース接続
-    $dsn = 'mysql:dbname=tb2****6db;host=localhost';
-	$user = 'tb-*****6';
-	$password = 'm*******Ku';
-	$pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
-	
 	//テーブル作成
 	$sql = "CREATE TABLE IF NOT EXISTS tbtest"
 	." ("
